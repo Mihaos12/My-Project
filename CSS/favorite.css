@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Pacifico&display=swap");
 
-html {
-  scroll-behavior: smooth;
-}
 main {
   max-width: 100%;
   background-color: white;
   font-family: "IBM Plex Mono";
 }
+
 .title {
   color: #424242;
   font-size: 48px;
 }
+
 .navbar__logo {
   height: 64px;
   margin-top: 18px;
@@ -25,6 +24,13 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.favorite {
+  background-color: #424242;
+  width: 100%;
+  height: 600px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
 
 .search {
   width: 800px;
@@ -36,7 +42,12 @@ main {
   font-size: 28px;
   border: none;
 }
-
+.favorite__text {
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 60px;
+}
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -96,243 +107,12 @@ nav {
 
 .container {
   padding-top: 100px;
-  margin: 20px auto;
+  margin: 0 auto;
   color: white;
   width: 1440px;
-  height: auto;
+  height: 200px;
+  margin-bottom: 600px;
 }
-
-.promotion {
-  width: 1440px;
-  height: 400px;
-  background-color: #ffcdb8;
-  border-radius: 45px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.promotion:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.promotion-text {
-  width: 500px;
-  color: #424242;
-  font-family: IBM Plex Mono;
-  font-size: 48px;
-  margin-top: 250px;
-  margin-left: -800px;
-}
-
-.promotion-title {
-  color: #e14141;
-  font-family: "IBM Plex Mono";
-  font-size: 84px;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
-.promotion__discount {
-  font-family: "Pacifico";
-  color: #e14141;
-  font-size: 148px;
-  text-align: right;
-  margin-right: 40px;
-}
-
-.category {
-  display: flex;
-  justify-content: space-evenly;
-  width: 1440px;
-  height: 150px;
-  background-color: #ffcdb8;
-  border-radius: 45px;
-  color: #424242;
-  text-align: center;
-}
-
-.category:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.sviter-title {
-  margin: 0 auto;
-}
-
-.shapka-title {
-  margin: 18px;
-}
-
-.pinetka-title {
-  margin: 25px;
-}
-
-.pled-title {
-  margin: 18px;
-}
-
-.kombinezon-title {
-  margin: 18px;
-}
-
-.category-sviter {
-  margin-top: 9px;
-  cursor: pointer;
-}
-
-.category-shapka {
-  margin-top: 27px;
-  cursor: pointer;
-}
-
-.category-pinetka {
-  margin-top: 34px;
-  cursor: pointer;
-}
-
-.category-pled {
-  margin-top: 27px;
-  cursor: pointer;
-}
-
-.category-kombinezon {
-  margin-top: 27px;
-  cursor: pointer;
-}
-.card__basket {
-  width: 45px;
-  height: 40px;
-  margin-top: 340px;
-  margin-right: 120px;
-}
-
-.card {
-  width: 300px;
-  height: 400px;
-  background-color: #ffcdb8;
-  border-radius: 45px;
-  font-family: "IBM Plex Mono";
-  display: flex;
-}
-
-.card:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.promotion__card {
-  background-color: #ffcdb8;
-  border-radius: 45px;
-  display: flex;
-  width: 680px;
-  height: 400px;
-  justify-content: center;
-  text-align: center;
-}
-
-.promotion__card:hover {
-  background: #e17141;
-  transition-duration: 0.4s;
-}
-
-.cards {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 150px;
-}
-
-.promotion__card-text {
-  width: 500px;
-  color: #424242;
-  font-family: IBM Plex Mono;
-  font-size: 48px;
-}
-
-.promotion__card-discount {
-  font-family: "Pacifico";
-  color: #e14141;
-  font-size: 148px;
-  text-align: center;
-  margin-left: 25px;
-}
-
-.card__heart {
-  margin: 20px;
-  width: 45px;
-  height: 45px;
-}
-
-.card__header {
-  width: 400px;
-  height: 100px;
-  display: flex;
-}
-
-.card__discount {
-  margin-top: 30px;
-  margin-left: 150px;
-  margin-right: 20px;
-  text-align: center;
-  width: 50px;
-  height: 25px;
-  background-color: #e14141;
-  border-radius: 45px;
-  display: flex;
-}
-
-.card__footer {
-  width: 300px;
-  height: 100px;
-  display: flex;
-  margin-top: 300px;
-}
-
-.card__discount-text {
-  text-align: center;
-  margin: 0 auto;
-  padding: 2px;
-}
-
-.card__title {
-  color: #424242;
-  margin-left: -280px;
-  margin-top: -5px;
-  width: 250px;
-}
-
-.card__price_text {
-  margin-top: 7px;
-}
-
-.card__basket {
-  margin-top: 40px;
-  margin-left: 100px;
-}
-
-.card__price {
-  color: white;
-  font-family: "IBM Plex Mono";
-  text-align: center;
-  font-size: 28px;
-  width: 120px;
-  height: 53px;
-  background-color: #e17141;
-  border-radius: 45px;
-  margin-top: 35px;
-  margin-left: -260px;
-}
-
-.card__image {
-  margin-top: 70px;
-  margin-left: -305px;
-  width: 300px;
-  height: 220px;
-}
-
 .footer__bg {
   padding-top: 50px;
   background-color: #e17141;
@@ -357,7 +137,6 @@ nav {
 .footer__mail {
   text-align: right;
 }
-
 @media screen and (max-width: 1440px) {
   .search {
     width: 350px;

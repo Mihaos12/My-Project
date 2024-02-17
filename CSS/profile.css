@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Pacifico&display=swap");
 
-html {
-  scroll-behavior: smooth;
-}
 main {
   max-width: 100%;
   background-color: white;
@@ -12,6 +9,7 @@ main {
   color: #424242;
   font-size: 48px;
 }
+
 .navbar__logo {
   height: 64px;
   margin-top: 18px;
@@ -87,252 +85,66 @@ nav {
   text-decoration: none;
   color: #424242;
 }
-
+.profile__form {
+  margin-top: -100px;
+  width: 400px;
+  text-align: center;
+  display: flex;
+}
 .line {
   background-color: #424242;
   max-width: 100%;
   padding-top: 15px;
 }
-
-.container {
-  padding-top: 100px;
-  margin: 20px auto;
+.col-md-4 {
+  width: 200px;
   color: white;
-  width: 1440px;
-  height: auto;
+  font-size: 32px;
 }
-
-.promotion {
-  width: 1440px;
-  height: 400px;
+.form-control {
   background-color: #ffcdb8;
-  border-radius: 45px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.promotion:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.promotion-text {
-  width: 500px;
-  color: #424242;
-  font-family: IBM Plex Mono;
-  font-size: 48px;
-  margin-top: 250px;
-  margin-left: -800px;
-}
-
-.promotion-title {
-  color: #e14141;
-  font-family: "IBM Plex Mono";
-  font-size: 84px;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
-.promotion__discount {
-  font-family: "Pacifico";
-  color: #e14141;
-  font-size: 148px;
-  text-align: right;
-  margin-right: 40px;
-}
-
-.category {
-  display: flex;
-  justify-content: space-evenly;
-  width: 1440px;
-  height: 150px;
-  background-color: #ffcdb8;
+  width: 200px;
+  height: 50px;
   border-radius: 45px;
   color: #424242;
-  text-align: center;
+  border: 2px solid #e17141;
 }
-
-.category:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.sviter-title {
-  margin: 0 auto;
-}
-
-.shapka-title {
-  margin: 18px;
-}
-
-.pinetka-title {
-  margin: 25px;
-}
-
-.pled-title {
-  margin: 18px;
-}
-
-.kombinezon-title {
-  margin: 18px;
-}
-
-.category-sviter {
-  margin-top: 9px;
-  cursor: pointer;
-}
-
-.category-shapka {
-  margin-top: 27px;
-  cursor: pointer;
-}
-
-.category-pinetka {
-  margin-top: 34px;
-  cursor: pointer;
-}
-
-.category-pled {
-  margin-top: 27px;
-  cursor: pointer;
-}
-
-.category-kombinezon {
-  margin-top: 27px;
-  cursor: pointer;
-}
-.card__basket {
-  width: 45px;
-  height: 40px;
-  margin-top: 340px;
-  margin-right: 120px;
-}
-
-.card {
-  width: 300px;
-  height: 400px;
-  background-color: #ffcdb8;
+.form-check-input {
+  width: 100px;
+  height: 25px;
   border-radius: 45px;
-  font-family: "IBM Plex Mono";
-  display: flex;
-}
-
-.card:hover {
-  background-color: #e17141;
-  transition-duration: 0.4s;
-}
-
-.promotion__card {
-  background-color: #ffcdb8;
-  border-radius: 45px;
-  display: flex;
-  width: 680px;
-  height: 400px;
-  justify-content: center;
-  text-align: center;
-}
-
-.promotion__card:hover {
-  background: #e17141;
-  transition-duration: 0.4s;
-}
-
-.cards {
-  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 150px;
+  gap: 50px;
 }
-
-.promotion__card-text {
-  width: 500px;
-  color: #424242;
-  font-family: IBM Plex Mono;
-  font-size: 48px;
-}
-
-.promotion__card-discount {
-  font-family: "Pacifico";
-  color: #e14141;
-  font-size: 148px;
-  text-align: center;
-  margin-left: 25px;
-}
-
-.card__heart {
-  margin: 20px;
-  width: 45px;
-  height: 45px;
-}
-
-.card__header {
-  width: 400px;
-  height: 100px;
-  display: flex;
-}
-
-.card__discount {
-  margin-top: 30px;
+.btn {
   margin-left: 150px;
-  margin-right: 20px;
-  text-align: center;
-  width: 50px;
-  height: 25px;
-  background-color: #e14141;
+  background-color: #ffcdb8;
+  width: 200px;
+  height: 50px;
   border-radius: 45px;
-  display: flex;
-}
-
-.card__footer {
-  width: 300px;
-  height: 100px;
-  display: flex;
-  margin-top: 300px;
-}
-
-.card__discount-text {
-  text-align: center;
-  margin: 0 auto;
-  padding: 2px;
-}
-
-.card__title {
-  color: #424242;
-  margin-left: -280px;
-  margin-top: -5px;
-  width: 250px;
-}
-
-.card__price_text {
-  margin-top: 7px;
-}
-
-.card__basket {
-  margin-top: 40px;
-  margin-left: 100px;
-}
-
-.card__price {
   color: white;
-  font-family: "IBM Plex Mono";
-  text-align: center;
-  font-size: 28px;
-  width: 120px;
-  height: 53px;
+  border: 2px solid #e17141;
+}
+.btn:hover {
   background-color: #e17141;
-  border-radius: 45px;
-  margin-top: 35px;
-  margin-left: -260px;
+  transition-duration: 0.4s;
 }
-
-.card__image {
-  margin-top: 70px;
-  margin-left: -305px;
-  width: 300px;
-  height: 220px;
+.form-check-label-text {
+  color: white;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
-
+.container {
+  padding-top: 100px;
+  margin: 0 auto;
+  color: white;
+  width: 1440px;
+  height: 200px;
+  margin-bottom: 650px;
+}
 .footer__bg {
   padding-top: 50px;
   background-color: #e17141;
@@ -357,7 +169,15 @@ nav {
 .footer__mail {
   text-align: right;
 }
-
+.profile__form {
+  margin: 150px;
+  padding-bottom: 80px;
+  width: 600px;
+  height: 400px;
+  padding-left: 25px;
+  background-color: #424242;
+  border-radius: 45px;
+}
 @media screen and (max-width: 1440px) {
   .search {
     width: 350px;
@@ -613,6 +433,24 @@ nav {
   }
   .navbar {
     height: 200px;
+  }
+  .profile__form {
+    margin-left: -130px;
+    margin: 150px;
+    padding-bottom: 80px;
+    width: 300px;
+    height: 430px;
+    padding-left: 25px;
+    background-color: #424242;
+    border-radius: 45px;
+  }
+  .form-check {
+    margin-left: -40px;
+    margin-top: 15px;
+    width: 200px;
+  }
+  .btn {
+    margin-left: 50px;
   }
 }
 
@@ -874,5 +712,29 @@ nav {
   }
   .footer__mail {
     margin-left: 10px;
+  }
+  .profile__form {
+    margin-left: 0px;
+    margin: 150px;
+    padding-bottom: 80px;
+    width: 300px;
+    height: 430px;
+    padding-left: 0px;
+    background-color: #424242;
+    border-radius: 45px;
+    margin-left: 30px;
+    padding-left: -30px;
+  }
+  .form-check {
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 200px;
+    padding-left: 10px;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+  .col-md-4 {
+    padding-left: 10px;
   }
 }
